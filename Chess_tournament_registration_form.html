@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess registration form</title>
+</head>
+
+<body>
+    <h1>Chess registration</h1>
+    <form action="/entry">
+        <p>
+            <label for="first">First name:</label>
+            <input type="text" name="first" id="first" required>
+        </p>
+        <p>
+            <label for="last">Last name:</label>
+            <input type="text" name="last" id="last" required>
+        </p>
+        <p>
+            <label for="Username">Chess.com username:</label>
+            <input type="text" name="username" id="Usernaem" required>
+        </p>
+        <p>
+            <label for="USCF">USCF Id:</label>
+            <input type="number" name="uscf" id="USCF" required>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+        </p>
+        <h4>Select a Grade group</h4>
+        <p>
+            <select name="Grade group" id="age">
+                <option value=" ">--Please Choose a Grade Group--</option>
+                <option value="K-3">K-3</option>
+                <option value="4-6">4-6</option>
+                <option value="7-9">7-9</option>
+                <option value="10-12">10-12</option>
+            </select>
+        </p>
+        <h4>Select a section:</h4>
+        <p>
+            <input type="radio" name="section" id="section" value="u1399">
+            <label for="u1399">u1399</label>
+        </p>
+        <p>
+            <input type="radio" name="section" id="section" value="1400-1799">
+            <label for="1400-1799">1400-1799</label>
+        </p>
+        <p>
+            <input type="radio" name="section" id="section" value="1800-2199">
+            <label for="1800-2199">1800-2199</label>
+        </p>
+        <p>
+            <input type="radio" name="section" id="section" value="2100+">
+            <label for="2100+">2100+</label>
+        </p>
+        <button>Register</button>
+    </form>
+    <h3>We hope you have a fun time at the tournament!</h3>
+</body>
+
+</html>
